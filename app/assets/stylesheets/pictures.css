@@ -28,19 +28,21 @@ a{
 #navbar {
     display: block;
     height: 40px;
-    background: #13181d;
+    background: #ECECEC;
 }
 
 #navbar a{
-    color: #fff;
+    color: black;
     display: inline-block;
     height: 40px;
     line-height: 37px;
     padding: 0 15px;
+    text-decoration: none;
 }
 
-#navbar a.active, #navbar a:hover{
-    background: #333;
+#navbar a.active{
+    background: #1D99D1;
+    text-decoration: none;
 }
 
 /* Content Styling */
@@ -56,7 +58,7 @@ a{
     float: left;
     height: 96px;
     list-style: none;
-    margin: 6px;
+    margin: 10px;
     position: relative;
     width: 125px;
     -moz-box-shadow: 0 0 5px #000;

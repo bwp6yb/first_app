@@ -1,0 +1,66 @@
+.bodyHome {
+	background-color: white !important;
+}
+
+#name {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 40px;
+	color: black;
+}
+
+#about {
+	text-align: center;
+	padding: 20px 150px 0px 150px;
+	color: black;
+}
+
+.temp-circle {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color:#1D99D1;
+	margin: 0 auto;
+}
+
+.row {
+	text-align: center;
+	margin-top: 100px !important;
+	margin-left: 50px !important;
+	margin-right: 0px !important;
+}
+
+.projectColumns {
+	border: 1px solid #1D99D1;
+	background-color: #ECECEC !important;
+	width: 21% !important;
+	margin: -20px 15px 0 15px;
+	padding: 30px 15px 20px 15px;
+}
+
+.projectColumns p,
+.projectColumns h3 {
+	color: black;
+}
+
+#homeColumn1,
+#homeColumn2,
+#homeColumn3 {
+	padding-bottom: 40px;
+}
+
+#padding1 {
+	padding-top: 20px;
+}
+
+#padding2 {
+	padding-top: 20px;
+}
+
+#padding3 {
+	padding-top: 20px;
+}
+
+#padding4 {
+	padding-top: 20px;
+}
