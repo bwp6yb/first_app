@@ -1,0 +1,72 @@
+.aboutImage {
+	background-color: #1D99D1;
+	border-radius: 100%;
+	width: 250px;
+	height: 250px;
+	margin-left: 150px;
+}
+
+.aboutRow {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.aboutTitle {
+	font-size: 600%;
+}
+
+.paragraphLeft, ul {
+	text-align: left;
+}
+
+.dashRight {
+	border-right: 1px dashed #1D99D1;
+}
+
+.dashBottom {
+	border-bottom: 1px dashed #1D99D1;
+}
+
+.paddingTop {
+	padding-top: 30px;
+}
+
+#skill1, #skill2, #skill3, #skill4, #skill5, #skill6, #skill7 {
+	background-color: #1D99D1;
+	height: 20px;
+}
+
+#skill1 {
+	width: 250px;
+}
+
+#skill2 {
+	width: 60px;
+}
+
+#skill3 {
+	width: 200px;
+}
+
+#skill4 {
+	width: 50px;
+}
+
+#skill5 {
+	width: 85px;
+}
+
+#skill6 {
+	width: 175px;
+}
+
+#skill7 {
+	width: 70px;
+}
+
+.projectCircle {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color: #1D99D1;
+}
