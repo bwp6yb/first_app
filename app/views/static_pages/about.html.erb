@@ -2,23 +2,29 @@
 	<title>About</title>
 </head>
 <body>
-	<div class = "container">
+	<div class = "container aboutContainer">
 		<div class = "row aboutRow">
 			<div class = "col-md-6">
 				<div class = "aboutImage">
 				</div>
 			</div>
 			<div class = "col-md-6">
-				<h1 class = "aboutTitle">About</h1>
-				<p class = "paragraphLeft">email:brandtparker6@gmail.com phone:(573) 406-8914
+				<div class = "aboutHeader">
+				<%= render 'layouts/header' %>
+				</div>
+				<div id = "about">
+					<p class = "aboutTitle futuraFont">About<p>
+					<div id = "dashedAbout"></div>
+				</div>
+				<p class = "paragraphLeft aboutSpacing"><strong class="futuraFont">email:</strong><span class = "bodyFont">brandtparker6@gmail.com</span> <strong class="futuraFont">phone:</strong><span class = "bodyFont">(573)406-8914</span>
 			</div>
 		</div>
 		<div class = "row aboutRow">
 			<div class = "col-md-6 dashRight">
-				<h1 class = "dashBottom">Purpose</h1>
-				<p class = "paragraphLeft">I've had the opportunity to learn and test out a lot of things. I studied Economics and Statistics at the University of Missouri, both of which I enjoyed. I travelled for 5 months in Missouri, New Mexico, Arizona, Colorado, and Minnesota for five months, and it was cheaper than traveling to Europe for one week. After the trip, I decide to forgo graduate school in Mathematics and learn how to program. I love it. My roommates are guiding me on how to go about learning and I have gotten to work on a few projects. I'm just trying to learn as quickly as I can, and wait for an opportunity to arise.</p>
-				<h1 class = "dashBottom paddingTop">Facts About Me</h1>
-				<ul class = "paragraphLeft">
+				<h1 class = "dashBottom futuraFont">Purpose</h1>
+				<p class = "paragraphLeft bodyFont">I've had the opportunity to learn and test out a lot of things. I studied Economics and Statistics at the University of Missouri, both of which I enjoyed. I travelled for 5 months in Missouri, New Mexico, Arizona, Colorado, and Minnesota, and it was cheaper than traveling to Europe for one week. After the trip, I decide to forgo graduate school in Mathematics and learn how to program. I love it. My roommates are guiding me on how to go about learning and I have gotten to work on a few projects. I'm just trying to learn as quickly as I can, and wait for an opportunity to arise.</p>
+				<h1 class = "dashBottom paddingTop futuraFont">Facts About Me</h1>
+				<ul class = "paragraphLeft bodyFont">
 					<li>I earned my Bachelor of Science degrees in Statistics and Economics</li>
 					<li>So it turns out that Statistics counted as my foreign language...</li>
 					<li>I was a volunteer firefighter for two years during college</li>
@@ -29,15 +35,15 @@
 				</ul>
 			</div>
 			<div class = "col-md-6">
-				<h1 class = "dashBottom">Skills</h1>
+				<h1 class = "dashBottom futuraFont">Skills</h1>
 				<div class = "col-md-4">
-					<p>HTML and CSS</p>
-					<p>Ruby</p>
-					<p>Rails</p>
-					<p>Javascript</p>
-					<p>jQuery</p>
-					<p>R</p>
-					<p>SAS</p>
+					<p class = "bodyFont">HTML and CSS</p>
+					<p class = "bodyFont">Ruby</p>
+					<p class = "bodyFont">Rails</p>
+					<p class = "bodyFont">Javascript</p>
+					<p class = "bodyFont">jQuery</p>
+					<p class = "bodyFont">R</p>
+					<p class = "bodyFont">SAS</p>
 				</div>
 				<div class = "col-md-8">
 					<p id = "skill1"></p>
@@ -46,31 +52,30 @@
 					<p id = "skill4"></p>
 					<p id = "skill5"></p>
 					<p id = "skill6"></p>
-					<p id = "skill7"></p>
+					<p class = "skillPadding" id = "skill7"></p>
 				</div>
-				<h1 class = "dashBottom">Contact</h1>
+				<h1 class = "dashBottom futuraFont">Contact</h1>
 				<form>
-					<p><input type = "text" placeholder = "Name"></p>
-					<p><input type = "email" placeholder = "Email"></p>
-					<p><textarea placeholder = "Message"></textarea></p>
+					<p><input type = "text" placeholder = "Name" class = "formName"><input type = "email" placeholder = "Email" class = "emailName"></p>
+					<p><textarea placeholder = "Message" class = "textName"></textarea></p>
 					<p><button>Send</button></p>
 				</form>
 			</div>
 		</div>
 		<div class = "row aboutRow">
 			<div class = "col-md-12">
-				<h1 class = "dashBottom">Projects</h1>
+				<h1 class = "dashBottom projectsTop futuraFont">Projects</h1>
 				<div class = "col-md-3">
-					<div class = "projectCircle"></div>
+					<div class = "projectCircle">ROR Tutorial</div>
 				</div>
 				<div class = "col-md-3">
-					<div class = "projectCircle"></div>
+					<div class = "projectCircle">City of Hope</div>
 				</div>
 				<div class = "col-md-3">
-					<div class = "projectCircle"></div>
+					<div class = "projectCircle">Chicken Chasing</div>
 				</div>
 				<div class = "col-md-3">
-					<div class = "projectCircle"></div>
+					<div class = "projectCircle">Pictures</div>
 				</div>
 			</div>
 		</div>

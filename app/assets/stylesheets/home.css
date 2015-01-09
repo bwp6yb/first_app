@@ -9,18 +9,36 @@
 	color: black;
 }
 
+#blueLine {
+	border-top: 1px dashed #1D99D1;
+	margin-top: -2%;
+	width: 50%;
+	margin-left: 25%;
+}
+
 #about {
 	text-align: center;
-	padding: 20px 150px 0px 150px;
+	padding: 20px 200px 0px 200px;
 	color: black;
 }
 
+.futuraFont {
+	font-family: gill sans;
+}
+
+.bodyFont {
+	font-family: forum;
+}
 .temp-circle {
 	border-radius: 100%;
 	width: 100px;
 	height: 100px;
 	background-color:#1D99D1;
 	margin: 0 auto;
+}
+
+.projectColumns h3.futuraFont {
+	border-bottom: 1px dashed #1D99D1;
 }
 
 .homeRow {
@@ -45,7 +63,8 @@
 
 #homeColumn1,
 #homeColumn2,
-#homeColumn3 {
+#homeColumn3,
+#homeColumn4 {
 	padding-bottom: 40px;
 }
 
@@ -62,5 +81,5 @@
 }
 
 #padding4 {
-	padding-top: 20px;
+	padding-top: 40px;
 }

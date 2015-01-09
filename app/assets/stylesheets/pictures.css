@@ -11,6 +11,10 @@ body{
     background: #ccc;
 }
 
+#navbar a {
+    font-family: gill sans;
+}
+
 a{
     text-decoration: none;
     outline: none;
